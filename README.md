@@ -10,3 +10,4 @@ formData = {};
 ``` javscript
 formData["param1"] = "テスト";
 ```
+formData のプロパティはformData["プロパティ文字列"]に値をセットして作成される
