@@ -11,3 +11,12 @@ formData = {};
 formData["param1"] = "テスト";
 ```
 formData のプロパティはformData["プロパティ文字列"]に値をセットして作成される
+
+formData のプロパティは formData.プロパティ文字列と書くこともできます
+``` javscript
+formData.param1 = "テスト";
+```
+## jQuery 側からサーバへデータを送る
+``` javscript
+data: formData
+```
