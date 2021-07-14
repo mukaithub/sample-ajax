@@ -43,3 +43,14 @@ $json->get = $_GET;
 ``` javscript
 print json_encode( $json, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT );
 ```
+##PHP より返却された json を .doneで data として受け取る
+``` javscript
+{
+	"get": {
+		"param1": "テスト",
+		"_": "1626244981881"
+	},
+	"post": [],
+	"session": []
+}
+```
