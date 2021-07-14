@@ -7,3 +7,6 @@ ajaxのgetを行う為のテンプレート
 formData = {};
 ```
 {} は空のオブジェクト
+``` javscript
+formData["param1"] = "テスト";
+```
