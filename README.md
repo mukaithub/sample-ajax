@@ -20,3 +20,8 @@ formData.param1 = "テスト";
 ``` javscript
 data: formData
 ```
+``` javscript
+{
+	"param1": "テスト"
+}
+```
